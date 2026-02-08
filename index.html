@@ -400,73 +400,80 @@
             </div>
 
             <div id="pricing-container" class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <!-- Card 1 -->
-                <div id="price-card-0" data-index="0"
-                    class="pricing-card bg-white p-8 rounded-3xl shadow-sm border border-border transition-all duration-300 transform cursor-default">
-                    <h3 class="text-xl font-bold text-secondary mb-2">Auto openen</h3>
-                    <div class="flex items-baseline gap-1 mb-4">
-                        <span class="text-3xl font-bold text-primary">€ 75,-</span>
-                        <span class="text-sm text-gray-400">vanaf</span>
+                <!-- Card 1 (Auto openen) -->
+                <div
+                    class="pricing-card relative h-[400px] rounded-3xl overflow-hidden shadow-lg group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                    <img src="assets/price_card1.jpg" alt="Auto openen"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+                        <h3 class="text-2xl font-bold mb-2">Auto openen</h3>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-3xl font-bold text-primary">€ 75,-</span>
+                            <span class="text-sm text-gray-300">vanaf</span>
+                        </div>
+                        <p class="text-sm text-gray-300 mb-6">Deur dichtgevallen of sleutel in de auto?</p>
+                        <a href="tel:+31612345678"
+                            class="block w-full py-3 bg-primary text-white font-bold text-center rounded-xl hover:bg-orange-600 transition-colors">Bel
+                            direct</a>
                     </div>
-                    <p class="text-sm text-gray-500 mb-6">Deur dichtgevallen of sleutel in de auto?</p>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span>
-                            Schadevrij openen</li>
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span>
-                            Binnen 30 min</li>
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span>
-                            Alle merken</li>
-                    </ul>
-                    <a href="tel:+31612345678"
-                        class="card-btn block w-full py-3 bg-surface text-secondary font-bold text-center rounded-xl border border-border transition-colors">Bel
-                        direct</a>
                 </div>
 
-                <!-- Card 2 (Featured) -->
-                <div id="price-card-1" data-index="1"
-                    class="pricing-card bg-white p-8 rounded-3xl shadow-sm border border-border relative transform md:-translate-y-4 transition-all duration-300 cursor-default">
+                <!-- Card 2 (Sleutel bijmaken - Featured) -->
+                <div
+                    class="pricing-card relative h-[450px] md:-mt-6 rounded-3xl overflow-hidden shadow-xl group cursor-pointer transition-transform duration-300 hover:-translate-y-2 border-2 border-primary">
                     <div
-                        class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary text-white text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider shadow-lg">
+                        class="absolute top-4 left-1/2 transform -translate-x-1/2 z-20 bg-primary text-white text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider shadow-lg">
                         Meest gekozen</div>
-                    <h3 class="text-xl font-bold text-secondary mb-2">Sleutel bijmaken</h3>
-                    <div class="flex items-baseline gap-1 mb-4">
-                        <span class="text-3xl font-bold text-primary">€ 125,-</span>
-                        <span class="text-sm text-gray-400">vanaf</span>
+                    <img src="assets/price_card2.jpg" alt="Sleutel bijmaken"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+                        <h3 class="text-2xl font-bold mb-2">Sleutel bijmaken</h3>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-4xl font-bold text-primary">€ 125,-</span>
+                            <span class="text-sm text-gray-300">vanaf</span>
+                        </div>
+                        <p class="text-sm text-gray-300 mb-6">Nieuwe sleutel inclusief inleren.</p>
+                        <div class="space-y-2 mb-6 text-sm">
+                            <div class="flex items-center gap-2"><span class="text-primary">✓</span> Klaar terwijl je
+                                wacht</div>
+                            <div class="flex items-center gap-2"><span class="text-primary">✓</span> Incl. programmeren
+                            </div>
+                            <div class="flex items-center gap-2"><span class="text-primary">✓</span> 2 jaar garantie
+                            </div>
+                        </div>
+                        <a href="tel:+31612345678"
+                            class="block w-full py-3 bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold text-center rounded-xl hover:bg-white/30 transition-colors">Bel
+                            direct</a>
                     </div>
-                    <p class="text-sm text-gray-500 mb-6">Nieuwe sleutel inclusief inleren.</p>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span>
-                            Klaar terwijl je wacht</li>
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span>
-                            Incl. programmeren</li>
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span> 2
-                            jaar garantie</li>
-                    </ul>
-                    <a href="tel:+31612345678"
-                        class="card-btn block w-full py-3 bg-surface text-secondary font-bold text-center rounded-xl border border-border transition-colors">Bel
-                        direct</a>
                 </div>
 
-                <!-- Card 3 -->
-                <div id="price-card-2" data-index="2"
-                    class="pricing-card bg-white p-8 rounded-3xl shadow-sm border border-border transition-all duration-300 transform cursor-default">
-                    <h3 class="text-xl font-bold text-secondary mb-2">Programmeren</h3>
-                    <div class="flex items-baseline gap-1 mb-4">
-                        <span class="text-3xl font-bold text-primary">€ 95,-</span>
-                        <span class="text-sm text-gray-400">vanaf</span>
+                <!-- Card 3 (Programmeren) -->
+                <div
+                    class="pricing-card relative h-[400px] rounded-3xl overflow-hidden shadow-lg group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                    <img src="assets/price_card3.jpg" alt="Programmeren"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+                        <h3 class="text-2xl font-bold mb-2">Programmeren</h3>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-3xl font-bold text-primary">€ 95,-</span>
+                            <span class="text-sm text-gray-300">vanaf</span>
+                        </div>
+                        <p class="text-sm text-gray-300 mb-6">Alleen software of transponder.</p>
+                        <div class="space-y-2 mb-6 text-sm">
+                            <div class="flex items-center gap-2"><span class="text-primary">✓</span> Nieuwste software
+                            </div>
+                            <div class="flex items-center gap-2"><span class="text-primary">✓</span> Foutcodes wissen
+                            </div>
+                            <div class="flex items-center gap-2"><span class="text-primary">✓</span> Direct werkend
+                            </div>
+                        </div>
+                        <a href="tel:+31612345678"
+                            class="block w-full py-3 bg-primary text-white font-bold text-center rounded-xl hover:bg-orange-600 transition-colors">Bel
+                            direct</a>
                     </div>
-                    <p class="text-sm text-gray-500 mb-6">Alleen software of transponder.</p>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span>
-                            Nieuwste software</li>
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span>
-                            Foutcodes wissen</li>
-                        <li class="flex items-center gap-3 text-sm text-gray-600"><span class="text-primary">✓</span>
-                            Direct werkend</li>
-                    </ul>
-                    <a href="tel:+31612345678"
-                        class="card-btn block w-full py-3 bg-surface text-secondary font-bold text-center rounded-xl border border-border transition-colors">Bel
-                        direct</a>
                 </div>
             </div>
             <div class="text-center mt-8 text-gray-400 text-xs">
